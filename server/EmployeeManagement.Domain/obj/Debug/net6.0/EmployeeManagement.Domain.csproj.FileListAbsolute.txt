@@ -1,0 +1,12 @@
+C:\Users\crist\Documents\Projects\Hahn Software\EmployeeManagement\server\EmployeeManagement.Domain\bin\Debug\net6.0\EmployeeManagement.Domain.deps.json
+C:\Users\crist\Documents\Projects\Hahn Software\EmployeeManagement\server\EmployeeManagement.Domain\bin\Debug\net6.0\EmployeeManagement.Domain.dll
+C:\Users\crist\Documents\Projects\Hahn Software\EmployeeManagement\server\EmployeeManagement.Domain\bin\Debug\net6.0\EmployeeManagement.Domain.pdb
+C:\Users\crist\Documents\Projects\Hahn Software\EmployeeManagement\server\EmployeeManagement.Domain\obj\Debug\net6.0\EmployeeManagement.Domain.csproj.AssemblyReference.cache
+C:\Users\crist\Documents\Projects\Hahn Software\EmployeeManagement\server\EmployeeManagement.Domain\obj\Debug\net6.0\EmployeeManagement.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\crist\Documents\Projects\Hahn Software\EmployeeManagement\server\EmployeeManagement.Domain\obj\Debug\net6.0\EmployeeManagement.Domain.AssemblyInfoInputs.cache
+C:\Users\crist\Documents\Projects\Hahn Software\EmployeeManagement\server\EmployeeManagement.Domain\obj\Debug\net6.0\EmployeeManagement.Domain.AssemblyInfo.cs
+C:\Users\crist\Documents\Projects\Hahn Software\EmployeeManagement\server\EmployeeManagement.Domain\obj\Debug\net6.0\EmployeeManagement.Domain.csproj.CoreCompileInputs.cache
+C:\Users\crist\Documents\Projects\Hahn Software\EmployeeManagement\server\EmployeeManagement.Domain\obj\Debug\net6.0\EmployeeManagement.Domain.dll
+C:\Users\crist\Documents\Projects\Hahn Software\EmployeeManagement\server\EmployeeManagement.Domain\obj\Debug\net6.0\refint\EmployeeManagement.Domain.dll
+C:\Users\crist\Documents\Projects\Hahn Software\EmployeeManagement\server\EmployeeManagement.Domain\obj\Debug\net6.0\EmployeeManagement.Domain.pdb
+C:\Users\crist\Documents\Projects\Hahn Software\EmployeeManagement\server\EmployeeManagement.Domain\obj\Debug\net6.0\ref\EmployeeManagement.Domain.dll

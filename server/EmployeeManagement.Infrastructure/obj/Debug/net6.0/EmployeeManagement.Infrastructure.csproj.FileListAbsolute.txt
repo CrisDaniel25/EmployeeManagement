@@ -1,0 +1,17 @@
+C:\Users\crist\Documents\Projects\Hahn Software\EmployeeManagement\server\EmployeeManagement.Infrastructure\bin\Debug\net6.0\EmployeeManagement.Infrastructure.deps.json
+C:\Users\crist\Documents\Projects\Hahn Software\EmployeeManagement\server\EmployeeManagement.Infrastructure\bin\Debug\net6.0\EmployeeManagement.Infrastructure.runtimeconfig.json
+C:\Users\crist\Documents\Projects\Hahn Software\EmployeeManagement\server\EmployeeManagement.Infrastructure\bin\Debug\net6.0\EmployeeManagement.Infrastructure.dll
+C:\Users\crist\Documents\Projects\Hahn Software\EmployeeManagement\server\EmployeeManagement.Infrastructure\bin\Debug\net6.0\EmployeeManagement.Infrastructure.pdb
+C:\Users\crist\Documents\Projects\Hahn Software\EmployeeManagement\server\EmployeeManagement.Infrastructure\bin\Debug\net6.0\EmployeeManagement.Domain.dll
+C:\Users\crist\Documents\Projects\Hahn Software\EmployeeManagement\server\EmployeeManagement.Infrastructure\bin\Debug\net6.0\EmployeeManagement.Domain.pdb
+C:\Users\crist\Documents\Projects\Hahn Software\EmployeeManagement\server\EmployeeManagement.Infrastructure\obj\Debug\net6.0\EmployeeManagement.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\crist\Documents\Projects\Hahn Software\EmployeeManagement\server\EmployeeManagement.Infrastructure\obj\Debug\net6.0\EmployeeManagement.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\crist\Documents\Projects\Hahn Software\EmployeeManagement\server\EmployeeManagement.Infrastructure\obj\Debug\net6.0\EmployeeManagement.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\crist\Documents\Projects\Hahn Software\EmployeeManagement\server\EmployeeManagement.Infrastructure\obj\Debug\net6.0\EmployeeManagement.Infrastructure.AssemblyInfo.cs
+C:\Users\crist\Documents\Projects\Hahn Software\EmployeeManagement\server\EmployeeManagement.Infrastructure\obj\Debug\net6.0\EmployeeManagement.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\crist\Documents\Projects\Hahn Software\EmployeeManagement\server\EmployeeManagement.Infrastructure\obj\Debug\net6.0\EmployeeManagement.Infrastructure.csproj.CopyComplete
+C:\Users\crist\Documents\Projects\Hahn Software\EmployeeManagement\server\EmployeeManagement.Infrastructure\obj\Debug\net6.0\EmployeeManagement.Infrastructure.dll
+C:\Users\crist\Documents\Projects\Hahn Software\EmployeeManagement\server\EmployeeManagement.Infrastructure\obj\Debug\net6.0\refint\EmployeeManagement.Infrastructure.dll
+C:\Users\crist\Documents\Projects\Hahn Software\EmployeeManagement\server\EmployeeManagement.Infrastructure\obj\Debug\net6.0\EmployeeManagement.Infrastructure.pdb
+C:\Users\crist\Documents\Projects\Hahn Software\EmployeeManagement\server\EmployeeManagement.Infrastructure\obj\Debug\net6.0\EmployeeManagement.Infrastructure.genruntimeconfig.cache
+C:\Users\crist\Documents\Projects\Hahn Software\EmployeeManagement\server\EmployeeManagement.Infrastructure\obj\Debug\net6.0\ref\EmployeeManagement.Infrastructure.dll
