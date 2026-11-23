@@ -1,0 +1,78 @@
+<!doctype html>
+<!-- Independent portfolio interface for the ASP.NET Core architecture. -->
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Employee operations dashboard portfolio demo backed by an ASP.NET Core DDD codebase.">
+  <title>PeopleOps · Employee Management Demo</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <aside class="sidebar">
+    <a class="brand" href="#"><span>CF</span><b>PeopleOps</b></a>
+    <nav aria-label="Main navigation">
+      <button class="nav-item active" data-view="overview"><i>01</i> Overview</button>
+      <button class="nav-item" data-view="employees"><i>02</i> Employees</button>
+      <button class="nav-item" data-view="departments"><i>03</i> Departments</button>
+    </nav>
+    <div class="architecture">
+      <small>BACKEND ARCHITECTURE</small>
+      <strong>ASP.NET Core</strong>
+      <span>API → Domain → Infrastructure</span>
+      <span>EF Core · SQL Server · Docker</span>
+    </div>
+  </aside>
+
+  <main>
+    <header class="topbar">
+      <div><span class="kicker">EMPLOYEE MANAGEMENT / PORTFOLIO DEMO</span><h1 id="page-title">Workforce overview</h1></div>
+      <div class="top-actions"><span class="demo-badge">● FICTIONAL DATA</span><button class="button ghost" id="reset-data">Reset demo</button><button class="button primary" id="add-employee">+ Add employee</button></div>
+    </header>
+
+    <section class="view active" id="overview-view">
+      <div class="notice"><b>Interactive demo mode.</b> Changes stay in this browser only. No client, employer or production data is used.</div>
+      <div class="metric-grid">
+        <article><span>ACTIVE EMPLOYEES</span><strong id="active-count">0</strong><small class="positive">↑ Current workforce</small></article>
+        <article><span>DEPARTMENTS</span><strong id="department-count">0</strong><small>Operational units</small></article>
+        <article><span>FULL-TIME RATIO</span><strong id="fulltime-ratio">0%</strong><small>Employment mix</small></article>
+        <article><span>NEW THIS YEAR</span><strong id="new-count">0</strong><small class="positive">Recent hires</small></article>
+      </div>
+      <div class="overview-grid">
+        <article class="panel chart-panel"><div class="panel-head"><div><span>WORKFORCE DISTRIBUTION</span><h2>Employees by department</h2></div><span class="period">2026</span></div><div id="department-chart" class="bar-chart"></div></article>
+        <article class="panel activity-panel"><div class="panel-head"><div><span>RECENT ACTIVITY</span><h2>People updates</h2></div></div><div id="activity-list"></div></article>
+      </div>
+      <article class="panel"><div class="panel-head"><div><span>TEAM DIRECTORY</span><h2>Recently updated</h2></div><button class="text-button" data-open-view="employees">View all →</button></div><div class="table-wrap"><table><thead><tr><th>Employee</th><th>Department</th><th>Position</th><th>Status</th></tr></thead><tbody id="recent-employees"></tbody></table></div></article>
+    </section>
+
+    <section class="view" id="employees-view">
+      <div class="toolbar"><div class="search"><span>⌕</span><input id="employee-search" type="search" placeholder="Search by name, email or position"></div><select id="department-filter"><option value="">All departments</option></select><select id="status-filter"><option value="">All statuses</option><option value="active">Active</option><option value="inactive">Inactive</option></select></div>
+      <article class="panel"><div class="panel-head"><div><span>EMPLOYEE DIRECTORY</span><h2><span id="result-count">0</span> records</h2></div></div><div class="table-wrap"><table><thead><tr><th>Employee</th><th>Contact</th><th>Department</th><th>Position</th><th>Type</th><th>Status</th><th></th></tr></thead><tbody id="employee-table"></tbody></table></div></article>
+    </section>
+
+    <section class="view" id="departments-view">
+      <div class="department-grid" id="department-grid"></div>
+    </section>
+  </main>
+
+  <dialog id="employee-dialog">
+    <form id="employee-form" method="dialog">
+      <div class="dialog-head"><div><span>EMPLOYEE RECORD</span><h2 id="dialog-title">Add employee</h2></div><button type="button" class="icon-button" id="close-dialog">×</button></div>
+      <input type="hidden" id="employee-id">
+      <div class="form-grid">
+        <label>First name<input required id="first-name" maxlength="100"></label>
+        <label>Last name<input required id="last-name" maxlength="100"></label>
+        <label class="wide">Email<input required type="email" id="email"></label>
+        <label>Telephone<input required id="telephone"></label>
+        <label>Hire date<input required type="date" id="hire-date"></label>
+        <label>Department<select required id="form-department"></select></label>
+        <label>Position<select required id="form-position"></select></label>
+        <label>Employment<select required id="employment-type"><option value="Full-time">Full-time</option><option value="Part-time">Part-time</option></select></label>
+        <label>Status<select required id="form-status"><option value="active">Active</option><option value="inactive">Inactive</option></select></label>
+      </div>
+      <div class="dialog-actions"><button type="button" class="button ghost" id="cancel-dialog">Cancel</button><button class="button primary" value="save">Save employee</button></div>
+    </form>
+  </dialog>
+  <script src="app.js"></script>
+</body>
+</html>
